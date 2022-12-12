@@ -23,4 +23,20 @@
  */
 #define ASSERT_EQ(Lhs, Rhs) do { assert(Lhs == Rhs); } while (0)
 
+/**
+ * todo: macros for print
+ * _____________________
+ * TEST 1 "NAME" STARTED 
+ * in Out stream
+ */ 
+#define TEST_PASSED(Name, Subname, Out) do { fputs("")  } while (0)
+
+
+/**
+ * todo: macros for print
+ * TEST 1 "NAME" PASSED
+ * in Out stream
+ */ 
+#define TEST_PASSED(Name, Subname, Out) do { fputs("")  } while (0)
+
 #endif /* TEST_ASSERTS_H */
